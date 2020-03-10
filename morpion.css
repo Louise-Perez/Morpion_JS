@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'VCR';
+	src: url('VCR.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'VCR';
+	text-transform: uppercase;
+	background-color: black;
+	text-align: center;
+}
+
+h1{
+	color: white;
+	font-size: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#jeu {
+width: 310px;
+height: 303px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+.cellule{
+ 	width: 100px;
+ 	height : 100px;
+ 	border: 1px solid black; 
+ 	display: flex;
+ 	font-size: 600%;
+ 	font-family: 'VCR', cursive;
+ 	justify-content: center;
+	 align-items: center;
+	 background-color:white;
+}
+
+#x1y1{
+	border-top-left-radius: 5px;
+}
+#x1y3{
+	border-top-right-radius: 5px;
+}
+#x3y1{
+	border-bottom-left-radius: 5px;
+}
+#x3y3{
+	border-bottom-right-radius: 5px;
+}
+
+.player1{
+	color: green;
+}
+
+.player2{
+	color: red;
+}
+
+#compteur1{
+	color: green;
+	margin-top: 30px;
+}
+
+#compteur2{
+	color: red;
+	margin-top: 30px;
+
+}
+
+.btn{
+ width: 200px;
+ color: white;
+ margin: auto;
+ margin-top: 25px;
+ background-color: black;
+}

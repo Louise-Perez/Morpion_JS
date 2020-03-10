@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="morpion.css">
+		<link href="https://fonts.googleapis.com/css?family=Coming+Soon&display=swap" rel="stylesheet">
+		<meta charset="UTF-8">
+		<title>Morpion</title>
+	</head>
+
+<body>
+
+	<section class="container"> 
+		<h1> MORPION </h1>
+
+		<div id="jeu" onclick="selectionne()">
+				<div class="cellule" id="x1y1"></div>
+				<div class="cellule" id="x1y2"></div>
+				<div class="cellule" id="x1y3"></div>
+				<div class="cellule" id="x2y1"></div>
+				<div class="cellule" id="x2y2"></div>
+				<div class="cellule" id="x2y3"></div>
+				<div class="cellule" id="x3y1"></div>
+				<div class="cellule" id="x3y2"></div>
+				<div class="cellule" id="x3y3"></div>
+		</div> 
+
+		<p id="compteur1"></p>
+		<p id="compteur2"></p>
+
+		<button type="button" class="btn" onclick="resetElement()"> EFFACER LA SELECTION</button>
+		<button type="button" class="btn" onclick="reset()"> REINITIALISER LA PARTIE</button>
+	</section>
+
+		<script type="text/javascript" src="morpion.js"></script>
+	</body>
+</html>
+
