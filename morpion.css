@@ -11,12 +11,12 @@ body{
 	background-color: black;
 }
 .container{
+	background-color: black;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	font-family: 'VCR';
+	justify-content: center;
 	text-transform: uppercase;
-	background-color: black;
 	text-align: center;
 }
 
@@ -28,23 +28,23 @@ h1{
 }
 
 #jeu {
-width: 310px;
-height: 303px;
-margin: auto;
-display: flex;
-flex-wrap: wrap;
+	height: 303px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 320px;
 }
 
 .cellule{
- 	width: 100px;
- 	height : 100px;
+	align-items: center;
+	background-color:white;
  	border: 1px solid black; 
  	display: flex;
  	font-size: 600%;
- 	font-family: 'VCR', cursive;
+	font-family: 'VCR', cursive;
+	height : 100px;
  	justify-content: center;
-	 align-items: center;
-	 background-color:white;
+	width: 100px;
 }
 
 #x1y1{
@@ -76,13 +76,12 @@ flex-wrap: wrap;
 #compteur2{
 	color: red;
 	margin-top: 30px;
-
 }
 
 .btn{
- width: 200px;
- color: white;
- margin: auto;
- margin-top: 25px;
- background-color: black;
+	background-color: black;
+	color: white;
+	margin: auto;
+	margin-top: 25px;
+	width: 200px;
 }
